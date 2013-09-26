@@ -8,9 +8,16 @@
             "": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:cordoval/ExamSimulator"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
-        "cilex/cilex": "~1.0"
+        "cilex/cilex": "~1.0",
+        "cordoval/exam-simulator": "dev-master"
     },
     "require-dev": {
         "behat/behat": "3.0.0beta5@dev",

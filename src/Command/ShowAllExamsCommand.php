@@ -1,10 +1,9 @@
 <?php
 
-namespace Cilex\Command;
+namespace Command;
 
-use Symfony\Component\Console\Input\InputArgument;
+use Cilex\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class ShowAllExamsCommand extends Command

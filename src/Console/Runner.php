@@ -3,7 +3,7 @@
 namespace Console;
 
 use Cilex\Application;
-use Cilex\Command\ShowAllExamsCommand;
+use Command\ShowAllExamsCommand;
 
 $app = new Application('Cilex');
 $app->command(new ShowAllExamsCommand());
